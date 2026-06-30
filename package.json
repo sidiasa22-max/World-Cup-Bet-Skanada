@@ -1,0 +1,14 @@
+{
+  "name": "wc2026-bet-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Signed 1-on-1 football bet tracker for FIFA World Cup 2026 (IDR), on Convex + a static frontend.",
+  "scripts": {
+    "dev": "convex dev",
+    "deploy": "convex deploy"
+  },
+  "dependencies": {
+    "convex": "^1.17.0"
+  }
+}

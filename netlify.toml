@@ -1,0 +1,9 @@
+# Static hosting for the single-page frontend.
+# The whole app lives in index.html; the backend is on Convex, so there are
+# no serverless functions or build step to configure here.
+
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
