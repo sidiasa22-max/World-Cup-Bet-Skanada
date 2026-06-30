@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Convex / environment
+.env.local
+.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
